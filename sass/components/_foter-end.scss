@@ -43,6 +43,11 @@
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus,
+  &:hover {
+    border: 1px solid #2196f3;
+  }
 }
 .foot-icon-button {
   padding: 10px 32px;
@@ -53,7 +58,6 @@
   border-radius: 4px;
   background-color: #2196f3;
   color: #ffffff;
-  /* box-shadow: 0px 4px 4px rgb(0 0 0 / 15%); */
   border: none;
   align-items: center;
   text-align: center;
@@ -64,19 +68,15 @@
   transition-property: box-shadow, border-radius;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
 }
 .foot-icon-teleg {
   height: 24px;
   width: 24px;
   margin-left: 10px;
-}
-
-.foter-email:focus,
-.foter-email:hover {
-  border: 1px solid #2196f3;
-}
-.foot-icon-button:hover,
-.foot-icon-button:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }

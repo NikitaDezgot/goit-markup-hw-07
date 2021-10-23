@@ -29,18 +29,15 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  /* transition-property: border-radius;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
-}
-.foot-social-link:hover,
-.foot-social-link:focus {
-  background-color: #2196f3;
-  border-radius: 50%;
-}
-.foot-social-link:hover .foot-social-icon,
-.foot-social-link:focus .foot-social-icon {
-  fill: #ffffff;
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+    border-radius: 50%;
+  }
+  &:hover .foot-social-icon,
+  &:focus .foot-social-icon {
+    fill: #ffffff;
+  }
 }
 
 .foot-social-icon {

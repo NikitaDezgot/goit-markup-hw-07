@@ -51,6 +51,11 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
 }
 .foot-adres-2 {
   color: #ffffff99;
@@ -65,12 +70,9 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.foot-adres-1:hover,
-.foot-adres-2:hover {
-  color: #2196f3;
-}
-.foot-adres-1:focus,
-.foot-adres-2:focus {
-  color: #2196f3;
+
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
 }

@@ -19,9 +19,7 @@
   justify-content: center;
   list-style: none;
 }
-/* .social-partners-item:hover .social-partners-item:focus {
-  background-color: #2196f3;
-} */
+
 .social-partners-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -40,9 +38,15 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  /* transition-property: border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+  &:focus,
+  &:hover {
+    border: 1px solid #2196f3;
+    fill: #2196f3;
+  }
+  &:focus .social-partners-icon,
+  &:hover .social-partners-icon {
+    fill: #2196f3;
+  }
 }
 .social-partners-icon {
   width: 106px;
@@ -52,14 +56,4 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-partners-link:focus,
-.social-partners-link:hover {
-  border: 1px solid #2196f3;
-  fill: #2196f3;
-}
-.social-partners-link:focus .social-partners-icon,
-.social-partners-link:hover .social-partners-icon {
-  fill: #2196f3;
 }
