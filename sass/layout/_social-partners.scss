@@ -43,10 +43,6 @@
     border: 1px solid #2196f3;
     fill: #2196f3;
   }
-  &:focus .social-partners-icon,
-  &:hover .social-partners-icon {
-    fill: #2196f3;
-  }
 }
 .social-partners-icon {
   width: 106px;
@@ -56,4 +52,9 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .social-partners-link:focus &,
+  .social-partners-link:hover & {
+    fill: #2196f3;
+  }
 }

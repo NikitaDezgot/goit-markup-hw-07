@@ -148,10 +148,6 @@
     border-color: #2196f3;
     border-radius: 50%;
   }
-  &:hover .close-but-modal,
-  &:focus .close-but-modal {
-    fill: #2196f3;
-  }
 }
 .close-but-modal {
   width: 18px;
@@ -162,4 +158,9 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .close-modal:hover &,
+  .close-modal:focus & {
+    fill: #2196f3;
+  }
 }

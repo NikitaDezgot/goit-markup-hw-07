@@ -22,10 +22,6 @@
     background-color: #2196f3;
     border-radius: 50%;
   }
-  &:hover .social-icon,
-  &:focus .social-icon {
-    fill: #ffffff;
-  }
 }
 
 .social-list {
@@ -46,4 +42,9 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .social-link:hover &,
+  .social-link:focus & {
+    fill: #ffffff;
+  }
 }
