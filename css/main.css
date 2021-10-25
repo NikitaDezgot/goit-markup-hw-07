@@ -45,6 +45,11 @@ button {
   color: #757575;
 }
 
+.header-conteiner, .header-logo, .body-1-top-link, .body-1-top-adr, .button-modal-list, .checkbox-text span, .img1-text, .social-link, .foot-social-link {
+  display: flex;
+  align-items: center;
+}
+
 .conteiner-header {
   border: 1px solid #eeeeee;
   width: auto;
@@ -63,29 +68,12 @@ button {
   border-color: #2196f3;
 }
 
-.header-conteiner {
-  display: flex;
-  align-items: center;
-}
-
-.header-logo {
-  display: flex;
-  align-items: center;
-}
-
 .body-1-top-logo {
   margin-right: 93px;
 }
 
-.body-1-top-link {
-  display: flex;
-  align-items: center;
-}
-
 .body-1-top-adr {
   margin-left: auto;
-  display: flex;
-  align-items: center;
 }
 
 .header-tel {
@@ -373,8 +361,6 @@ button {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -464,8 +450,6 @@ button {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   margin-right: 7px;
-  display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -603,8 +587,6 @@ button {
   text-transform: uppercase;
   color: #ffffff;
   justify-content: center;
-  display: flex;
-  align-items: center;
   position: absolute;
   height: 70px;
   width: 100%;
@@ -684,8 +666,6 @@ button {
   height: 100%;
   border-radius: 50%;
   background-color: #ffffff;
-  display: flex;
-  align-items: center;
   justify-content: center;
   transition-property: background-color, border-radius;
   transition-duration: 250ms;
@@ -886,8 +866,6 @@ button {
 }
 
 .foot-social-link {
-  display: flex;
-  align-items: center;
   justify-content: center;
   width: 44px;
   height: 44px;

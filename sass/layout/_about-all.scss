@@ -110,8 +110,7 @@
   text-transform: uppercase;
   color: #ffffff;
   justify-content: center;
-  display: flex;
-  align-items: center;
+  @extend %align-items;
   position: absolute;
   height: 70px;
   width: 100%;

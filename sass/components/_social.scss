@@ -9,8 +9,7 @@
   height: 100%;
   border-radius: 50%;
   background-color: #ffffff;
-  display: flex;
-  align-items: center;
+  @extend %align-items;
   justify-content: center;
 
   transition-property: background-color, border-radius;

@@ -18,25 +18,21 @@
 }
 
 .header-conteiner {
-  display: flex;
-  align-items: center;
+  @extend %align-items;
 }
 
 .header-logo {
-  display: flex;
-  align-items: center;
+  @extend %align-items;
 }
 .body-1-top-logo {
   margin-right: 93px;
 }
 .body-1-top-link {
-  display: flex;
-  align-items: center;
+  @extend %align-items;
 }
 .body-1-top-adr {
   margin-left: auto;
-  display: flex;
-  align-items: center;
+  @extend %align-items;
 }
 .header-tel {
   margin-right: 50px;
