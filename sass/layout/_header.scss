@@ -1,8 +1,8 @@
-.conteiner-header {
+.conteiner-header-1 {
   border: 1px solid #eeeeee;
   width: auto;
 }
-.body-1-top {
+.header {
   background-color: #ffffff;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -24,13 +24,13 @@
 .header-logo {
   @extend %align-items;
 }
-.body-1-top-logo {
+.header-top-logo {
   margin-right: 93px;
 }
-.body-1-top-link {
+.header-list {
   @extend %align-items;
 }
-.body-1-top-adr {
+.header-top-adr {
   margin-left: auto;
   @extend %align-items;
 }
@@ -41,7 +41,7 @@
   margin-left: 50px;
 }
 
-.body-1-top-logo {
+.header-top-logo {
   color: #2196f3;
   font-family: Raleway, cursive;
   font-size: 26px;
@@ -50,11 +50,11 @@
   cursor: pointer;
   text-decoration: none;
 }
-.body-1-top-logo {
+.header-top-logo {
   list-style: none;
 }
 
-.body-1-top-logo2 {
+.header-top-logo2 {
   color: black;
   font-family: Raleway, cursive;
   font-size: 26px;
@@ -63,7 +63,7 @@
   cursor: pointer;
 }
 
-.body-1-top-link {
+.header-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -103,7 +103,7 @@
   }
 }
 
-.body-1-top-adr {
+.header-top-adr {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
