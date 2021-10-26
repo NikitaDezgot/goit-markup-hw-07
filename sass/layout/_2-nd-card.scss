@@ -1,8 +1,8 @@
-.card-all-top {
+.portfolio-card-blok {
   position: relative;
   overflow: hidden;
 }
-.card {
+.portfolio-card {
   display: block;
   text-decoration: none;
   cursor: pointer;
@@ -11,7 +11,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover .card-all-text {
+  &:hover .portfolio-card-text {
     opacity: 1;
     transform: translateY(0px);
     &:hover,
@@ -22,10 +22,8 @@
     }
   }
 }
-.port-itms {
-  display: block;
-}
-.card-all-text {
+
+.portfolio-card-text {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -52,9 +50,7 @@
 .conteiner-card {
   padding: 20px 24px;
 }
-.portfolio-text {
-  margin-top: 4px;
-}
+
 .portfolio-log {
   color: #212121;
   font-weight: 700;
@@ -68,4 +64,7 @@
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+.portfolio-text {
+  margin-top: 4px;
 }

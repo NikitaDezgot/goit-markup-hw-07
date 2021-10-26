@@ -5,18 +5,18 @@
 .portfolio ul {
   list-style: none;
 }
-.port-but {
+.button-link {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
   border: none;
 }
 
-.port-but2:not(:last-child) {
+.button-list:not(:last-child) {
   margin-right: 8px;
 }
 
-.portfolio-button {
+.button-name {
   background-color: #f5f4fa;
   color: #212121;
   font-weight: 500;
@@ -43,7 +43,7 @@
   }
 }
 
-.portfolio-conteiner {
+.portfolio-link {
   display: flex;
   flex-wrap: wrap;
 
@@ -53,7 +53,7 @@
   }
 }
 
-.port-itms {
+.portfolio-list {
   flex-basis: calc(100% / 3 - 30px);
   border: 1px solid #eeeeee;
 
@@ -61,4 +61,8 @@
     margin-right: 30px;
     margin-bottom: 30px;
   }
+}
+
+.portfolio-list {
+  display: block;
 }
