@@ -992,11 +992,11 @@ button {
   border: none;
 }
 
-.button-list:not(:last-child) {
+.button-link__list:not(:last-child) {
   margin-right: 8px;
 }
 
-.button-name {
+.button-link__name {
   background-color: #f5f4fa;
   color: #212121;
   font-weight: 500;
@@ -1016,7 +1016,7 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-name:hover, .button-name:focus {
+.button-link__name:hover, .button-link__name:focus {
   background-color: #2196f3;
   color: #ffffff;
 }

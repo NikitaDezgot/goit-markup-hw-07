@@ -12,11 +12,11 @@
   border: none;
 }
 
-.button-list:not(:last-child) {
+.button-link__list:not(:last-child) {
   margin-right: 8px;
 }
 
-.button-name {
+.button-link__name {
   background-color: #f5f4fa;
   color: #212121;
   font-weight: 500;
